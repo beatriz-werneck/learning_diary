@@ -8,8 +8,8 @@ book:
   author: "Beatriz Werneck"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - wk1.qmd
+    - wk2.qmd
     - references.qmd
 
 bibliography: references.bib

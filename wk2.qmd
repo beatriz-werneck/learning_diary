@@ -1,0 +1,8 @@
+# Week 02: Understanding Landsat 8
+
+To access Landsat 8 presentation, click on the following link:
+
+```{r}
+xaringanExtra::embed_xaringan(url = "URL of your presentation",
+                              ratio = "16:9")
+```

@@ -1,9 +1,5 @@
-# Preface {.unnumbered}
+# Introduction {.unnumbered}
 
-This is a Quarto book.
+My name is Beatriz Werneck, and I’m an architect and urban planner who graduated from the Federal University of Minas Gerais (UFMG) in Brazil. I’m currently pursuing a Master of Science in Urban Spatial Science at the Bartlett Centre for Advanced Spatial Analysis (CASA), University College London (UCL).
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
-
-```{r}
-1 + 1
-```
+This page is my learning diary for the module Remotely Sensing Cities and Environments. Here, I’ll be sharing weekly posts about the course content and my reflections along the way. I hope you enjoy following this journey!  
