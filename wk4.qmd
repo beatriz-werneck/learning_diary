@@ -4,8 +4,12 @@
 
 The Belo Horizonte’s Plan, also called ‘Plano Diretor’, was established by Municipal Law 11,181 in 2019. This policy aims to address issues related to urban structure, urban development, environment, housing, cultural and urban heritage, and mobility, as well as the treatment of public and private spaces in Belo Horizonte, capital of the state of Minas Gerais in Brazil. One thing that this plan does is define land use zones for the city, and for each zone there are specific urban parameters to guide land use and urban expansion. Moreover, there are ten types of zones, and among them is the environmental preservation zone, which is subdivided into three levels (PA1, PA2 and PA3), from the most to the least restrictive in terms of land use. 
 
-Environmental preservation zones were established in areas where there are environmental attributes that need to be preserved, such as springs, watercourses, valley bottoms and dense fragments of native vegetation. Finally, the way to ensure that this policy is respected is by requiring a municipal licence to build and clear land in these areas, where the technical staff of the local council assesses whether the parameters established by law are being complied with. However, this mechanism does not cover informal actions, which are currently only identified through complaints and on-site inspections.
+```{r}
+knitr::include_graphics('img/bh_pd_zoneamento.png')
+```
+Source: Secretaria Municipal de Política Urbana da Prefeitura de Belo Horizonte (2020) E-book Plano Diretor de BH: OCUPAÇÃO DO SOLO". Available at: https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/politica-urbana/2023/001_zoneamento_0.pdf (Accessed: 22 February 2026).
 
+Environmental preservation zones were established in areas where there are environmental attributes that need to be preserved, such as springs, watercourses, valley bottoms and dense fragments of native vegetation. Finally, the way to ensure that this policy is respected is by requiring a municipal licence to build and clear land in these areas, where the technical staff of the local council assesses whether the parameters established by law are being complied with. However, this mechanism does not cover informal actions, which are currently only identified through complaints and on-site inspections.
 
 ## Application 
 
