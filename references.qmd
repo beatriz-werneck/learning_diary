@@ -15,10 +15,18 @@ NASA: Landsat’s Role in Supporting Urban Planning. Available at https://scienc
 
 MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 3 Corrections. Available at: https://andrewmaclachlan.github.io/CASA0023/3_corrections.html (Accessed: 31 January 2026).
 
-MacLachlan, A., Biggs, E., Roberts, G. and Boruff, B., 2021. Sustainable city planning: a data-driven approach for mitigating urban heat. Frontiers in Built Environment, 6, p.519599.
+MacLachlan, A., Biggs, E., Roberts, G. and Boruff, B., 2021. Sustainable city planning: a data-driven approach for mitigating urban heat.Frontiers in Built Environment,6, p.519599.
 
 Prefeitura de Belo Horizonte (2019). Plano Diretor - Lei 11.181/19. Available at: https://prefeitura.pbh.gov.br/politica-urbana/planejamento-urbano/plano-diretor/proposta (Accessed: 22 February 2026).
 
 Secretaria Municipal de Política Urbana da Prefeitura de Belo Horizonte (2020). E-book Plano Diretor de BH: OCUPAÇÃO DO SOLO". Available at: https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/politica-urbana/2023/001_zoneamento_0.pdf (Accessed: 22 February 2026).
 
 Copernicus Data Space Ecosystem. Sentinel-2. Available at:   https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2 (Accessed: 22 February 2026).
+
+Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., Moore, R., 2017. Google Earth Engine: Planetary-scale geospatial analysis for everyone. Remote Sensing of Environment, Big Remotely Sensed Data: tools, applications and experiences 202, 18–27.
+
+Hansen, M.C., Potapov, P.V., Moore, R., Hancher, M., Turubanova, S.A., Tyukavina, A., Thau, D., Stehman, S.V., Goetz, S.J., Loveland, T.R. and Kommareddy, A., 2013. High-resolution global maps of 21st-century forest cover change. science, 342(6160), pp.850-853.
+
+Lobell, D.B., Thau, D., Seifert, C., Engle, E. and Little, B., 2015. A scalable satellite-based crop yield mapper. Remote Sensing of Environment, 164, pp.324-333.
+
+Ravanelli, R., Nascetti, A., Cirigliano, R.V., Di Rico, C., Leuzzi, G., Monti, P. and Crespi, M., 2018. Monitoring the impact of land cover change on surface urban heat island through Google Earth Engine: Proposal of a global methodology, first applications and problems. Remote Sensing, 10(9), p.1488.
