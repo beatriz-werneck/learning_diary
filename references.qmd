@@ -30,3 +30,15 @@ Hansen, M.C., Potapov, P.V., Moore, R., Hancher, M., Turubanova, S.A., Tyukavina
 Lobell, D.B., Thau, D., Seifert, C., Engle, E. and Little, B., 2015. A scalable satellite-based crop yield mapper. Remote Sensing of Environment, 164, pp.324-333.
 
 Ravanelli, R., Nascetti, A., Cirigliano, R.V., Di Rico, C., Leuzzi, G., Monti, P. and Crespi, M., 2018. Monitoring the impact of land cover change on surface urban heat island through Google Earth Engine: Proposal of a global methodology, first applications and problems. Remote Sensing, 10(9), p.1488.
+
+MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 6  Classification I. Available at: https://andrewmaclachlan.github.io/CASA0023/6_classification_I.html (Accessed: 06 March 2026).
+
+Jensen, J.R. (2015) Introductory digital image processing: a remote sensing perspective. 4th edn. Glenview, IL: Prentice-Hall Inc.
+
+Sheykhmousa, M., Mahdianpari, M., Ghanbari, H., Mohammadimanesh, F., Ghamisi, P. and Homayouni, S. (2020) ‘Support Vector Machine Versus Random Forest for Remote Sensing Image Classification: A Meta-Analysis and Systematic Review’, IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing.
+
+GISGeography (2014) Image Classification Techniques in Remote Sensing. Available at: https://gisgeography.com/image-classification-techniques-remote-sensing/ (Accessed: 06 March 2026).
+
+Barsi, Á., Kugler, Z., László, I., Szabó, G. and Abdulmutalib, H.M. (2018) ‘Accuracy dimensions in remote sensing’, International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences.
+
+Pal, M. and Mather, P.M. (2005) ‘Support vector machines for classification in remote sensing’, International Journal of Remote Sensing.
