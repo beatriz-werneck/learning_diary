@@ -42,3 +42,9 @@ GISGeography (2014) Image Classification Techniques in Remote Sensing. Available
 Barsi, Á., Kugler, Z., László, I., Szabó, G. and Abdulmutalib, H.M. (2018) ‘Accuracy dimensions in remote sensing’, International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences.
 
 Pal, M. and Mather, P.M. (2005) ‘Support vector machines for classification in remote sensing’, International Journal of Remote Sensing.
+
+MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 7  Classification II. Available at:https://andrewmaclachlan.github.io/CASA0023/7_classification_II.html (Accessed: 20 March 2026).
+
+Dronova, I., 2015. Object-based image analysis in wetland research: A review. Remote Sensing, 7(5), pp.6380-6413.
+
+Reschke, J. and Hüttich, C., 2014. Continuous field mapping of Mediterranean wetlands using sub-pixel spectral signatures and multi-temporal Landsat data. International Journal of Applied Earth Observation and Geoinformation, 28, pp.220-229.
