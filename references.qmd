@@ -48,3 +48,11 @@ MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 7  Classificat
 Dronova, I., 2015. Object-based image analysis in wetland research: A review. Remote Sensing, 7(5), pp.6380-6413.
 
 Reschke, J. and Hüttich, C., 2014. Continuous field mapping of Mediterranean wetlands using sub-pixel spectral signatures and multi-temporal Landsat data. International Journal of Applied Earth Observation and Geoinformation, 28, pp.220-229.
+
+MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 9: Synthetic Aperture Radar (SAR) data’. Available at:https://andrewmaclachlan.github.io/CASA0023/9_SAR.html (Accessed: 22 March 2026).
+
+Ballinger, O. Remote Sensing for OSINT: ‘Blast Damage Assessment’. Case Study 10. Available: https://bellingcat.github.io/RS4OSINT/C3_Blast.html (Accessed: 22 March 2026).
+
+Vassileva, M., Al-Halbouni, D., Motagh, M., Walter, T.R., Dahm, T. and Wetzel, H.U. (2021) ‘A decade-long silent ground subsidence hazard culminating in a metropolitan disaster in Maceió, Brazil’, Scientific Reports, 11(1), 7704.
+
+Barbosa, F.L.R., Guimarães, R.F., Carvalho Junior, O.A. and Gomes, R.A.T. (2021) ‘Land Use/Land Cover (LULC) classification based on SAR/Sentinel 1 image in Distrito Federal, Brazil’, Sociedade & Natureza, 33, e55954.
