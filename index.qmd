@@ -1,5 +1,9 @@
 # Introduction {.unnumbered}
 
+## Hello!
+
 My name is Beatriz Werneck, and I’m an architect and urban planner who graduated from the Federal University of Minas Gerais (UFMG) in Brazil. I’m currently pursuing a Master of Science in Urban Spatial Science at the Bartlett Centre for Advanced Spatial Analysis (CASA), University College London (UCL).
 
-This page is my learning diary for the module Remotely Sensing Cities and Environments. Here, I’ll be sharing weekly posts about the course content and my reflections along the way. I hope you enjoy following this journey!  
+Regarding my profissional experience I've worked in two different Brazilian consultancies firms for urban design and city planning. The main focus of these positions were to carry out urban feasibility studies for land subdivision; process and manage of urban project legal approval (in conjunction with environmental licensing); develop urban planning projects; and promote workshops for technical teams of local town halls, focusing on land subdivision. Additionally, I had the opportunity to work in the public sector (in Nova Lima city hall, Brazil) being responsible for technical analysis of land subdivision projects and ensuring compliance with current urban legislation. Furthermore, I worked in coordination with spatial analysis and legal teams, contributing to integrated urban planning processes and the promotion of orderly and sustainable growth in the city.
+
+This page is my learning diary for the module Remotely Sensing Cities and Environments. Here, I’ll be sharing weekly posts about the course content and my reflections along the way. I hope you enjoy following this journey!

@@ -10,16 +10,48 @@ Importantly, all materials on Earth emit, absorb, and reflect EM radiation diffe
 
 Shorter wavelengths scatter more easily in the atmosphere, explaining why the sky appears blue. Atmospheric scattering can also obstruct surface observations, particularly due to clouds. Active sensors using longer wavelengths can overcome this limitation, as they are capable of penetrating clouds and other atmospheric disturbances.
 
-Finally, remotely sensed data are characterised by four key resolutions: spatial (pixel size), spectral (number of wavelength bands), temporal (revisit frequency), and radiometric (sensitivity to differences in energy). Environmental conditions and sensor limitations often constrain data choice, making it essential to select appropriate data for specific applications.
+Remotely sensed data are characterised by four key resolutions: spatial (pixel size), spectral (number of wavelength bands), temporal (revisit frequency), and radiometric (sensitivity to differences in energy). Environmental conditions and sensor limitations often constrain data choice, making it essential to select appropriate data for specific applications.
 
-## Application 
+Wrapping up, remote sensing is a powerful tool, but it has natural and technical limits. The atmosphere is a constant problem because clouds act as a physical barrier and haze can make images look blurry or blue, hiding important details. Physically, most sensors only see the top few millimeters of the Earth, so understanding what is underground requires extra assumptions instead of direct sight. Finally, practical factors like high costs and specific data needs often limit which imagery is used for a project.
 
-Remote sensing is widely used to observe and monitor the Earth using spaceborne, airborne, and ground-based sensors, and many studies show how these different platforms are suited to different applications. For example, spaceborne sensors are commonly used to track changes in vegetation over large areas by analysing reflected near-infrared (NIR) radiation, which is strongly related to plant health. This approach is often discussed in the literature in relation to agriculture, deforestation, and seasonal ecosystem changes, as it allows patterns to be observed consistently over time. Airborne sensors, such as those mounted on drones or aircraft, are frequently used when more detailed information is needed, for instance in precision farming or forest management. Ground-based measurements are also important, as they are often used to validate and interpret remotely sensed data, helping to link satellite observations with real conditions on the ground. These examples highlight how practical constraints, such as spatial resolution and coverage, influence the choice of remote sensing data in real applications.
+## Application
 
-Remote sensing is also widely used in climate and environmental studies, especially to understand how energy moves between the Earth and the atmosphere. This is often described as the radiation budget, which refers to how much energy from the Sun reaches the Earth, how much is reflected back into space, and how much is absorbed and re-emitted as heat. Satellite data help researchers study these energy exchanges, which are important for understanding climate change and temperature patterns. Reflected near-infrared (NIR) waves are particularly useful because healthy vegetation reflects a large amount of NIR energy. By analysing this reflected energy, scientists can easily identify vegetation cover, plant stress, and seasonal changes across large areas. This makes NIR data very valuable for monitoring crops, forests, and ecosystems.
+One example of remote sensing application is seen the Kuc, G. and Chormański, J. (2019) study. They used Sentinel-2 satellite data to map "sealed" surfaces like roofs and pavement in Warsaw, Poland. By using the satellite's 10-meter detail and special indices like NDBI, researchers were able to identify where concrete has replaced natural ground. This is very helpful for city water management, as it helps planners predict where rain might cause floods because it cannot soak into the soil. This shows how free satellite data can provide an up-to-date look at how cities are growing and changing.
 
-To make sense of the large amount of data collected by sensors, Digital Image Processing (DIP) techniques are used. These methods help clean the data by removing noise, correcting for atmospheric effects, and improving image quality. DIP also allows researchers to highlight specific features, compare images taken at different times, and extract useful information such as land-cover types or changes after extreme events. For example, processed satellite images are often used to map flooded areas, track wildfire damage, or study melting ice. Overall, these concepts show how remote sensing data are transformed into meaningful information that can support environmental studies, decision-making, and practical applications.
+Image 01: Imperviousness Layer for Warsaw.
+
+```{r}
+knitr::include_graphics('img/wk1_f1.png')
+```
+
+Source: Kuc, G. and Chormański, J. (2019) ‘Sentinel-2 imagery for mapping and monitoring imperviousness in urban areas’, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 42, pp. 43–47.
+
+Another research project looked at Slovakia to find and map green spots like parks, cemeteries, and private gardens. The team used a method called supervised classification, which basically means teaching a computer to recognize different types of vegetation based on how they reflect light. This allowed them to measure how much these green areas help to cool down the city air or provide a place for people to enjoy nature. The study found that even private gardens are important for a city's health and biodiversity (Kopecká, Szatmári and Rosina, 2017).
+
+Image 02: Six processing steps of the UGS extraction and classification (an example from study Bratislava)
+
+```{r}
+knitr::include_graphics('img/wk1_f2.png')
+```
+
+"(a) A true colour composite produced from S2A data; (b) result of the maximum area Bratislava). (a) A true colour composite produced from S2A data; (b) result of the maximum likelihood supervised automatic classification; (c) binary map of vegetation/non-vegetation land cover; (d) vectorised and visually enhanced polygons with the minimum mapping unit of 500 m2 likelihood supervised automatic classification; (c) binary map of vegetation/non-vegetation land cover; applied; (e) result of UGS visual interpretation and polygon editing; (f) tree cover share estimated (d) vectorised and visually enhanced polygons with the minimum mapping unit of 500 m2 applied; using (b,e) on a per-polygon basis \[17\]. (e) result of UGS visual interpretation and polygon editing; (f) tree cover share estimated using (b,e) on a per-polygon basis \[17\]."
+
+Source: Kopecká, M., Szatmári, D. and Rosina, K. (2017) ‘Analysis of urban green spaces based on Sentinel-2A: Case studies from Slovakia’, Land, 6(2), p. 25.
+
+Comparing these two studies, both rely on the high-quality, free images from Sentinel-2 to solve modern city problems. The main difference is their goal: the Warsaw study focuses on man-made materials to manage water and floods, while the Slovakian study focuses on nature and plants to improve the local environment and human well-being. Both demonstrate that satellites allow urban monitoring, without having to visit every single street in person.
 
 ## Reflection
 
 Earth Observation (EO) data have strong potential to support environmental policy because they provide consistent, large-scale information about the Earth’s surface. However, integrating EO data into policy is not always straightforward, due to constraints such as limited technical expertise, challenges in interpreting satellite outputs, and gaps between scientific results and policy needs. One important aspect of EO is that different sensors can be selected according to environmental conditions; for example, radar data are often used in regions with frequent cloud cover where optical imagery is unreliable. This demonstrates that EO can be adapted to real-world problems, but only when its limitations are clearly understood. The increasing availability of free satellite data, such as imagery from the Sentinel and Landsat missions, together with online platforms like Google Earth Engine, has made EO more accessible to governments and organisations with limited technical resources. These tools allow users to analyse a wide range of surface changes, including deforestation, flooding, crop conditions, urban expansion, and ship movements, without the need to process raw data from scratch. As a result, EO-based evidence can inform planning decisions and support a more critical evaluation of policy claims based on spatial data.
+
+## References
+
+MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 1 Getting started with remote sensing. Available at: https://andrewmaclachlan.github.io/CASA0023/intro.html (Accessed: 18 January 2026).
+
+Brady, M. (2021) Remote Sensing for Dummies. \[Online\]. Available at: Course Resources.
+
+Kerle, N., Janssen, L.L.F. and Huurneman, G.C. (eds.) (2004) Principles of Remote Sensing. 3rd edn. Enschede: International Institute for Geo-Information Science and Earth Observation (ITC).
+
+Kopecká, M., Szatmári, D. and Rosina, K. (2017) ‘Analysis of urban green spaces based on Sentinel-2A: Case studies from Slovakia’, Land, 6(2), p. 25.
+
+Kuc, G. and Chormański, J. (2019) ‘Sentinel-2 imagery for mapping and monitoring imperviousness in urban areas’, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 42, pp. 43–47.

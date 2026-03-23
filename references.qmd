@@ -3,7 +3,15 @@
 ::: {#refs}
 :::
 
-MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 1  Getting started with remote sensing. Available at: https://andrewmaclachlan.github.io/CASA0023/intro.html (Accessed: 18 January 2026).
+MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 1 Getting started with remote sensing. Available at: https://andrewmaclachlan.github.io/CASA0023/intro.html (Accessed: 18 January 2026).
+
+Brady, M. (2021) Remote Sensing for Dummies. \[Online\]. Available at: Course Resources.
+
+Kerle, N., Janssen, L.L.F. and Huurneman, G.C. (eds.) (2004) Principles of Remote Sensing. 3rd edn. Enschede: International Institute for Geo-Information Science and Earth Observation (ITC).
+
+Kopecká, M., Szatmári, D. and Rosina, K. (2017) ‘Analysis of urban green spaces based on Sentinel-2A: Case studies from Slovakia’, Land, 6(2), p. 25.
+
+Kuc, G. and Chormański, J. (2019) ‘Sentinel-2 imagery for mapping and monitoring imperviousness in urban areas’, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 42, pp. 43–47.
 
 NASA. Spectral Bands and Applications. Available at: https://science.nasa.gov/mission/landsat/spectral-bands-and-applications/ (Accessed: 25 January 2026).
 
@@ -21,7 +29,7 @@ Prefeitura de Belo Horizonte (2019). Plano Diretor - Lei 11.181/19. Available at
 
 Secretaria Municipal de Política Urbana da Prefeitura de Belo Horizonte (2020). E-book Plano Diretor de BH: OCUPAÇÃO DO SOLO". Available at: https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/politica-urbana/2023/001_zoneamento_0.pdf (Accessed: 22 February 2026).
 
-Copernicus Data Space Ecosystem. Sentinel-2. Available at:   https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2 (Accessed: 22 February 2026).
+Copernicus Data Space Ecosystem. Sentinel-2. Available at: https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2 (Accessed: 22 February 2026).
 
 Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., Moore, R., 2017. Google Earth Engine: Planetary-scale geospatial analysis for everyone. Remote Sensing of Environment, Big Remotely Sensed Data: tools, applications and experiences 202, 18–27.
 
@@ -31,7 +39,7 @@ Lobell, D.B., Thau, D., Seifert, C., Engle, E. and Little, B., 2015. A scalable 
 
 Ravanelli, R., Nascetti, A., Cirigliano, R.V., Di Rico, C., Leuzzi, G., Monti, P. and Crespi, M., 2018. Monitoring the impact of land cover change on surface urban heat island through Google Earth Engine: Proposal of a global methodology, first applications and problems. Remote Sensing, 10(9), p.1488.
 
-MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 6  Classification I. Available at: https://andrewmaclachlan.github.io/CASA0023/6_classification_I.html (Accessed: 06 March 2026).
+MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 6 Classification I. Available at: https://andrewmaclachlan.github.io/CASA0023/6_classification_I.html (Accessed: 06 March 2026).
 
 Jensen, J.R. (2015) Introductory digital image processing: a remote sensing perspective. 4th edn. Glenview, IL: Prentice-Hall Inc.
 
@@ -43,7 +51,7 @@ Barsi, Á., Kugler, Z., László, I., Szabó, G. and Abdulmutalib, H.M. (2018) �
 
 Pal, M. and Mather, P.M. (2005) ‘Support vector machines for classification in remote sensing’, International Journal of Remote Sensing.
 
-MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 7  Classification II. Available at:https://andrewmaclachlan.github.io/CASA0023/7_classification_II.html (Accessed: 20 March 2026).
+MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 7 Classification II. Available at:https://andrewmaclachlan.github.io/CASA0023/7_classification_II.html (Accessed: 20 March 2026).
 
 Dronova, I., 2015. Object-based image analysis in wetland research: A review. Remote Sensing, 7(5), pp.6380-6413.
 
