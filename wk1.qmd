@@ -34,11 +34,11 @@ Image 02: Six processing steps of the UGS extraction and classification (an exam
 knitr::include_graphics('img/wk1_f2.png')
 ```
 
-"(a) A true colour composite produced from S2A data; (b) result of the maximum area Bratislava). (a) A true colour composite produced from S2A data; (b) result of the maximum likelihood supervised automatic classification; (c) binary map of vegetation/non-vegetation land cover; (d) vectorised and visually enhanced polygons with the minimum mapping unit of 500 m2 likelihood supervised automatic classification; (c) binary map of vegetation/non-vegetation land cover; applied; (e) result of UGS visual interpretation and polygon editing; (f) tree cover share estimated (d) vectorised and visually enhanced polygons with the minimum mapping unit of 500 m2 applied; using (b,e) on a per-polygon basis \[17\]. (e) result of UGS visual interpretation and polygon editing; (f) tree cover share estimated using (b,e) on a per-polygon basis \[17\]."
+"(a) A true colour composite produced from S2A data; (b) result of the maximum area Bratislava); (c) binary map of vegetation/non-vegetation land cover; (d) vectorised and visually enhanced polygons with the minimum mapping unit of 500 m2 likelihood supervised automatic classification; (e) result of UGS visual interpretation and polygon editing; (f) tree cover share estimated"
 
 Source: Kopecká, M., Szatmári, D. and Rosina, K. (2017) ‘Analysis of urban green spaces based on Sentinel-2A: Case studies from Slovakia’, Land, 6(2), p. 25.
 
-Comparing these two studies, both rely on the high-quality, free images from Sentinel-2 to solve modern city problems. The main difference is their goal: the Warsaw study focuses on man-made materials to manage water and floods, while the Slovakian study focuses on nature and plants to improve the local environment and human well-being. Both demonstrate that satellites allow urban monitoring, without having to visit every single street in person.
+Comparing these two studies, both rely on the high-quality, free images from Sentinel-2 to solve city problems. The main difference is their goal: the Warsaw study focuses on man-made materials to manage water and floods, while the Slovakian study focuses on nature and plants to improve the local environment and human well-being. Both demonstrate that satellites allow urban monitoring, without having to visit every single street in person. However, both studies indicated methodology gaps that lead to the conclusion that a human expert is still needed to verify and improve result's quality. For example, the Warsaw study used 20 meter resolution bands for their building index (NDBI), which was much blurrier than the 10 meter bands used for the plant index (NDVI), making it harder to find small building due to this resolution mismatch (Kuc & Chormański, 2019). Another example, from Kopecká & all (2017), is that satellites can identify the green spaces, but it couldn't tell the difference between each kind of green space, such as park and cemetery.     
 
 ## Reflection
 
@@ -48,7 +48,7 @@ Earth Observation (EO) data have strong potential to support environmental polic
 
 MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 1 Getting started with remote sensing. Available at: https://andrewmaclachlan.github.io/CASA0023/intro.html (Accessed: 18 January 2026).
 
-Brady, M. (2021) Remote Sensing for Dummies. \[Online\]. Available at: Course Resources.
+Brady, M. (2021) Remote Sensing for Dummies. Available at: https://storymaps.arcgis.com/stories/cb1577b0f5bc485c974b4ea19d52282d (Accessed: 18 January 2026).
 
 Kerle, N., Janssen, L.L.F. and Huurneman, G.C. (eds.) (2004) Principles of Remote Sensing. 3rd edn. Enschede: International Institute for Geo-Information Science and Earth Observation (ITC).
 

@@ -5,7 +5,7 @@
 
 MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 1 Getting started with remote sensing. Available at: https://andrewmaclachlan.github.io/CASA0023/intro.html (Accessed: 18 January 2026).
 
-Brady, M. (2021) Remote Sensing for Dummies. \[Online\]. Available at: Course Resources.
+Brady, M. (2021) Remote Sensing for Dummies. Available at: https://storymaps.arcgis.com/stories/cb1577b0f5bc485c974b4ea19d52282d (Accessed: 18 January 2026).
 
 Kerle, N., Janssen, L.L.F. and Huurneman, G.C. (eds.) (2004) Principles of Remote Sensing. 3rd edn. Enschede: International Institute for Geo-Information Science and Earth Observation (ITC).
 
