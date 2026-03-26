@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -254,9 +219,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="application" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="application"><span class="header-section-number">1.2</span> Application</h2>
 <p>One example of remote sensing application is seen the Kuc, G. and Chormański, J. (2019) study. They used Sentinel-2 satellite data to map “sealed” surfaces like roofs and pavement in Warsaw, Poland. By using the satellite’s 10-meter detail and special indices like NDBI, researchers were able to identify where concrete has replaced natural ground. This is very helpful for city water management, as it helps planners predict where rain might cause floods because it cannot soak into the soil. This shows how free satellite data can provide an up-to-date look at how cities are growing and changing.</p>
-<p>Image 01: Imperviousness Layer for Warsaw.</p>
+<div style="text-align: center;">
+<p><strong>Image 01: Imperviousness Layer for Warsaw</strong></p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'img/wk1_f1.png'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -265,11 +230,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>Source: Kuc, G. and Chormański, J. (2019) ‘Sentinel-2 imagery for mapping and monitoring imperviousness in urban areas’, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 42, pp.&nbsp;43–47.</p>
+<p><strong>Source</strong>: Kuc, G. and Chormański, J. (2019) ‘Sentinel-2 imagery for mapping and monitoring imperviousness in urban areas’, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 42, pp.&nbsp;43–47.</p>
+</div>
 <p>Another research project looked at Slovakia to find and map green spots like parks, cemeteries, and private gardens. The team used a method called supervised classification, which basically means teaching a computer to recognize different types of vegetation based on how they reflect light. This allowed them to measure how much these green areas help to cool down the city air or provide a place for people to enjoy nature. The study found that even private gardens are important for a city’s health and biodiversity (Kopecká, Szatmári and Rosina, 2017).</p>
-<p>Image 02: Six processing steps of the UGS extraction and classification (an example from study Bratislava)</p>
+<div style="text-align: center;">
+<p><strong>Image 02: Six processing steps of the UGS extraction and classification (an example from study Bratislava)</strong></p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'img/wk1_f2.png'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -279,7 +245,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>“(a) A true colour composite produced from S2A data; (b) result of the maximum area Bratislava); (c) binary map of vegetation/non-vegetation land cover; (d) vectorised and visually enhanced polygons with the minimum mapping unit of 500 m2 likelihood supervised automatic classification; (e) result of UGS visual interpretation and polygon editing; (f) tree cover share estimated”</p>
-<p>Source: Kopecká, M., Szatmári, D. and Rosina, K. (2017) ‘Analysis of urban green spaces based on Sentinel-2A: Case studies from Slovakia’, Land, 6(2), p.&nbsp;25.</p>
+<p><strong>Source</strong>: Kopecká, M., Szatmári, D. and Rosina, K. (2017) ‘Analysis of urban green spaces based on Sentinel-2A: Case studies from Slovakia’, Land, 6(2), p.&nbsp;25.</p>
+</div>
 <p>Comparing these two studies, both rely on the high-quality, free images from Sentinel-2 to solve city problems. The main difference is their goal: the Warsaw study focuses on man-made materials to manage water and floods, while the Slovakian study focuses on nature and plants to improve the local environment and human well-being. Both demonstrate that satellites allow urban monitoring, without having to visit every single street in person. However, both studies indicated methodology gaps that lead to the conclusion that a human expert is still needed to verify and improve result’s quality. For example, the Warsaw study used 20 meter resolution bands for their building index (NDBI), which was much blurrier than the 10 meter bands used for the plant index (NDVI), making it harder to find small building due to this resolution mismatch (Kuc &amp; Chormański, 2019). Another example, from Kopecká &amp; all (2017), is that satellites can identify the green spaces, but it couldn’t tell the difference between each kind of green space, such as park and cemetery.</p>
 </section>
 <section id="reflection" class="level2" data-number="1.3">

@@ -18,27 +18,35 @@ Wrapping up, remote sensing is a powerful tool, but it has natural and technical
 
 One example of remote sensing application is seen the Kuc, G. and Chormański, J. (2019) study. They used Sentinel-2 satellite data to map "sealed" surfaces like roofs and pavement in Warsaw, Poland. By using the satellite's 10-meter detail and special indices like NDBI, researchers were able to identify where concrete has replaced natural ground. This is very helpful for city water management, as it helps planners predict where rain might cause floods because it cannot soak into the soil. This shows how free satellite data can provide an up-to-date look at how cities are growing and changing.
 
-Image 01: Imperviousness Layer for Warsaw.
+::: {style="text-align: center;"}
+**Image 01: Imperviousness Layer for Warsaw**
 
 ```{r}
+#| echo: false
+
 knitr::include_graphics('img/wk1_f1.png')
 ```
 
-Source: Kuc, G. and Chormański, J. (2019) ‘Sentinel-2 imagery for mapping and monitoring imperviousness in urban areas’, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 42, pp. 43–47.
+**Source**: Kuc, G. and Chormański, J. (2019) ‘Sentinel-2 imagery for mapping and monitoring imperviousness in urban areas’, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 42, pp. 43–47.
+:::
 
 Another research project looked at Slovakia to find and map green spots like parks, cemeteries, and private gardens. The team used a method called supervised classification, which basically means teaching a computer to recognize different types of vegetation based on how they reflect light. This allowed them to measure how much these green areas help to cool down the city air or provide a place for people to enjoy nature. The study found that even private gardens are important for a city's health and biodiversity (Kopecká, Szatmári and Rosina, 2017).
 
-Image 02: Six processing steps of the UGS extraction and classification (an example from study Bratislava)
+::: {style="text-align: center;"}
+**Image 02: Six processing steps of the UGS extraction and classification (an example from study Bratislava)**
 
 ```{r}
+#| echo: false
+
 knitr::include_graphics('img/wk1_f2.png')
 ```
 
 "(a) A true colour composite produced from S2A data; (b) result of the maximum area Bratislava); (c) binary map of vegetation/non-vegetation land cover; (d) vectorised and visually enhanced polygons with the minimum mapping unit of 500 m2 likelihood supervised automatic classification; (e) result of UGS visual interpretation and polygon editing; (f) tree cover share estimated"
 
-Source: Kopecká, M., Szatmári, D. and Rosina, K. (2017) ‘Analysis of urban green spaces based on Sentinel-2A: Case studies from Slovakia’, Land, 6(2), p. 25.
+**Source**: Kopecká, M., Szatmári, D. and Rosina, K. (2017) ‘Analysis of urban green spaces based on Sentinel-2A: Case studies from Slovakia’, Land, 6(2), p. 25.
+:::
 
-Comparing these two studies, both rely on the high-quality, free images from Sentinel-2 to solve city problems. The main difference is their goal: the Warsaw study focuses on man-made materials to manage water and floods, while the Slovakian study focuses on nature and plants to improve the local environment and human well-being. Both demonstrate that satellites allow urban monitoring, without having to visit every single street in person. However, both studies indicated methodology gaps that lead to the conclusion that a human expert is still needed to verify and improve result's quality. For example, the Warsaw study used 20 meter resolution bands for their building index (NDBI), which was much blurrier than the 10 meter bands used for the plant index (NDVI), making it harder to find small building due to this resolution mismatch (Kuc & Chormański, 2019). Another example, from Kopecká & all (2017), is that satellites can identify the green spaces, but it couldn't tell the difference between each kind of green space, such as park and cemetery.     
+Comparing these two studies, both rely on the high-quality, free images from Sentinel-2 to solve city problems. The main difference is their goal: the Warsaw study focuses on man-made materials to manage water and floods, while the Slovakian study focuses on nature and plants to improve the local environment and human well-being. Both demonstrate that satellites allow urban monitoring, without having to visit every single street in person. However, both studies indicated methodology gaps that lead to the conclusion that a human expert is still needed to verify and improve result's quality. For example, the Warsaw study used 20 meter resolution bands for their building index (NDBI), which was much blurrier than the 10 meter bands used for the plant index (NDVI), making it harder to find small building due to this resolution mismatch (Kuc & Chormański, 2019). Another example, from Kopecká & all (2017), is that satellites can identify the green spaces, but it couldn't tell the difference between each kind of green space, such as park and cemetery.
 
 ## Reflection
 

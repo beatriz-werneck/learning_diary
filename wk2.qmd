@@ -3,8 +3,8 @@
 To access Landsat 8 presentation, click on the following link: [Landsat 8 Presentation](https://beatriz-werneck.github.io/presentation_landsat_8/#8)
 
 ```{r}
+#| echo: false
+
 xaringanExtra::embed_xaringan(url = "https://beatriz-werneck.github.io/presentation_landsat_8/",
                               ratio = "16:9")
 ```
-
-
