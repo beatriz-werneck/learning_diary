@@ -3,6 +3,8 @@
 ::: {#refs}
 :::
 
+**Authorship statement:**I declare that the work in this assessment is my own work and I acknowledge the use of Google NotebookLM (version Standard (free), Google, https://notebooklm.google/) to initial searches, proof reading and grammar correction.
+
 MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 1 Getting started with remote sensing. Available at: https://andrewmaclachlan.github.io/CASA0023/intro.html (Accessed: 18 January 2026).
 
 Brady, M. (2021) Remote Sensing for Dummies. Available at: https://storymaps.arcgis.com/stories/cb1577b0f5bc485c974b4ea19d52282d (Accessed: 18 January 2026).
@@ -28,6 +30,8 @@ Shimada, M., 2010. Ortho-rectification and slope correction of SAR data using DE
 Vermote, E.F. and Kotchenova, S., 2008. Atmospheric correction for the monitoring of land surfaces. Journal of Geophysical Research: Atmospheres, 113(D23).
 
 National Oceanic and Atmospheric Administration (NOAA), Chemical Sciences Laboratory. Platform: AERONET. Available at: <https://csl.noaa.gov/projects/firex-aq/groundsites/aeronet.html#:~:text=The%20program%20was%20established%20by%20NASA%20and,>*%20Missoula%20*%20Taylor%20Ranch%20\*%20McCall (Accessed 26 March 2026).
+
+MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 4 Classification I. Available at: https://andrewmaclachlan.github.io/CASA0023/4_policy.html (Accessed: 22 February 2026).
 
 MacLachlan, A., Biggs, E., Roberts, G. and Boruff, B., 2021. Sustainable city planning: a data-driven approach for mitigating urban heat.Frontiers in Built Environment,6, p.519599.
 

@@ -30,7 +30,8 @@ One major way to fix errors in satellite data is through geometric and terrain c
 
 knitr::include_graphics('img/wk3_f1.png')
 ```
-"ALOS PALSAR images of Mt. Fuji before (a) and after (b) slope correction (for layover and cross section area)." 
+
+"ALOS PALSAR images of Mt. Fuji before (a) and after (b) slope correction (for layover and cross section area)."
 
 **Source**: Shimada, M., 2010. Ortho-rectification and slope correction of SAR data using DEM and its accuracy evaluation. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 3(4), pp.657-671.
 :::
@@ -45,7 +46,8 @@ Another application is atmospheric correction. A study developed by Vermote and 
 
 knitr::include_graphics('img/wk3_f2.png')
 ```
-"MODIS TOA (left) reflectance and (right) surface reflectance RGB images. The MODIS data were collected over the Alta Floresta AERONET site on 13 September 2003. AOT and WV are the values of aerosol optical thickness and water vapor content (g/cm2) measured by AERONET and retrieved by the MODIS AC algorithm; delta means the measured variability; std means the standard deviation; DTaot designates the difference in time between two AERONET observations which bracket the MODIS acquisition; and nb obs is the number of ‘‘good’’ MODIS observations. SLA, SHA, UP, and UC are abbreviations for smoke low absorption, smoke high absorption, urban polluted, and urban clean aerosol models, respectively. The AERONET site is located in the center of the image." 
+
+"MODIS TOA (left) reflectance and (right) surface reflectance RGB images. The MODIS data were collected over the Alta Floresta AERONET site on 13 September 2003. AOT and WV are the values of aerosol optical thickness and water vapor content (g/cm2) measured by AERONET and retrieved by the MODIS AC algorithm; delta means the measured variability; std means the standard deviation; DTaot designates the difference in time between two AERONET observations which bracket the MODIS acquisition; and nb obs is the number of ‘‘good’’ MODIS observations. SLA, SHA, UP, and UC are abbreviations for smoke low absorption, smoke high absorption, urban polluted, and urban clean aerosol models, respectively. The AERONET site is located in the center of the image."
 
 **Source**: Vermote, E.F. and Kotchenova, S., 2008. Atmospheric correction for the monitoring of land surfaces. Journal of Geophysical Research: Atmospheres, 113(D23).
 :::
