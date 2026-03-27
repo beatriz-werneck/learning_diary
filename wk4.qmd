@@ -26,8 +26,8 @@ Environmental preservation zones were established in areas where there are envir
 
 knitr::include_graphics('img/wk4_f2.png')
 ```
-Informal settlement in the PA1 and PA2 zones
-**Source**: Author
+
+Informal settlement in the PA1 and PA2 zones **Source**: Author
 :::
 
 ## Application
@@ -41,6 +41,8 @@ Sentinel-2 would be a good satellite option for monitoring environmental preserv
 In addition to aligning with the definitions of the Belo Horizonte’s Plan (municipal scale), the application of Earth Observation for monitoring unsustainable and irregular urban development is in line with the UN Sustainable Development Goals (global scale). Specifically, Goal 11: ‘Make cities and human settlements inclusive, safe, resilient and sustainable’, which advocates for sustainable urbanisation and strengthening efforts to protect the world's natural heritage, respectively in sub-items 11.3 and 11.4. In addition, it is also aligned with Goals 13 and 15, respectively: ‘Take urgent action to combat climate change and its impacts’ and ‘Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss’. Overall, it is understood that the use of Sentinel-2 would increase the effectiveness of Belo Horizonte's plan, contributing to the protection of the local environment. However, this technology would also help to monitor unregulated urban sprawl, preventing the formation of new settlements where there is no urban infrastructure (clean water, sewage collection, drainage, public lighting and paving). Overall, remote sensing might be a powerful tool to inform policies in different scales.
 
 ## References
+
+**Authorship statement:**I declare that the work in this assessment is my own work and I acknowledge the use of Google NotebookLM (version Standard (free), Google, https://notebooklm.google/) to initial searches, proof reading and grammar correction.
 
 MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 4 Classification I. Available at: https://andrewmaclachlan.github.io/CASA0023/4_policy.html (Accessed: 22 February 2026).
 

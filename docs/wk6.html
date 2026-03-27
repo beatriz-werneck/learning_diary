@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -216,6 +181,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">5.1</span> Summary</a></li>
   <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">5.2</span> Application</a></li>
   <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">5.3</span> Reflection</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">5.4</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -245,12 +211,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 data-number="5.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">5.1</span> Summary</h2>
 <p>Google Earth Engine (GEE) is a platform/tool powered by Google’s Data Center Infrastructure to process and analyse geospatial data. Moreover, it’s cloud-service has a great volume of remote sensing data, including Landsat, Sentinel 1 and 2, MODIS, and no-satellite imagery, which allows users to do quickly planetary scale analysis. The data in GEE is organised in object classes, such as Image (raster), ImageCollection, Geometry (vector), Feature (vector with atributes), FeatureCollection, Reducer, Join, Array and Chart. Furthermore, for each kind of class there are specific methods to select and manipulate data.</p>
 <p>Beyond data analysis, this platform enable researchers to do geometry operations, such as joins, zonal statistics filtering, and create artificial intelligence models (machine learning and deep learning) based on the available data. Another GEE’s feature is reducing images, which allows users to create a “summary image” from a ImageCollection (raster’s stack), using the median value for each pixel from the collection. Reduction can be done by region(s), when the reduction occurs for a specific boundary of the study area, and users want to extract a statistic of this place (minimum, mean, maximum, etc). It can also be done by neighbourhood, what means that it will reduce the information in a small window/kernel to a single value for the center pixel. Finally, a different way to reduce images in GEE is using regression. This method allows analysing how values change over time, producing two kinds of images: the intercept (representing the starting value) and the slope (representing the speed or rate of change over time).</p>
+<p>Despite its power, Google Earth Engine has also limitations. To begin, users must have an active account to access the platform. Moreover, because the work happens on Google’s servers, it is not possible to control or change how the background system handles calculations or manages its resources (Gorelick &amp; all, 2017). There are also strict usage rules to ensure the system is shared fairly, such as a time limit of about four and a half minutes for most interactive tasks (Gorelick &amp; all, 2017). Additional, beginners may also find the coding style difficult, for example it is not possible to re-run only some specific chunk of code, GEE always run all the code and consequently the time for changing or adding new chunks of code increase considerably.</p>
 </section>
 <section id="application" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="application"><span class="header-section-number">5.2</span> Application</h2>
-<p>Google Earth Engine (GEE) is a “game-changer” because it allows planetary-scale analysis that was previously impossible for most researchers. One famous application is the work by Hansen et al.&nbsp;(2013), who mapped global forest change over a decade. By using linear regressions and decision trees on over 600,000 Landsat scenes, they completed a massive processing task in just 100 hours, something that would have taken much more time in a traditional computer. This demonstrates how GEE’s ability to “reduce” a large amount of images into maps of “loss” and “gain” provides vital information for biodiversity and climate conservation.</p>
+<p>Google Earth Engine (GEE) is a powerful tool because it make it easier to do planetary-scale analysis, that was harder to persue before GEE, for most researchers. One famous application is the work by Hansen et al.&nbsp;(2013), who mapped global forest change over a decade. By using linear regressions and decision trees on over 600,000 Landsat scenes, they completed a massive processing task in just 100 hours, something that would have taken much more time in a traditional computer. This demonstrates how GEE’s ability to “reduce” a large amount of images into maps of “loss” and “gain” provides vital information for biodiversity and climate conservation.</p>
+<div style="text-align: center;">
+<p><strong>Image 01: Global Forest Change</strong></p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'img/wk6_f1.jpeg'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -259,10 +227,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>“(A) Tree cover, (B) forest loss, and (C) forest gain. A color composite of tree cover in green, forest loss in red, forest gain in blue, and forest loss and gain in magenta is shown in (D), with loss and gain enhanced for improved visualization. All map layers have been resampled for display purposes from the 30-m observation scale to a 0.05° geographic grid.” Source: Hansen et al.&nbsp;(2013)</p>
+<p>“(A) Tree cover, (B) forest loss, and (C) forest gain. A color composite of tree cover in green, forest loss in red, forest gain in blue, and forest loss and gain in magenta is shown in (D), with loss and gain enhanced for improved visualization. All map layers have been resampled for display purposes from the 30-m observation scale to a 0.05° geographic grid.”</p>
+<p><strong>Source</strong>: Hansen et al.&nbsp;(2013)</p>
+</div>
 <p>Beyond forests, GEE is also used in agriculture and urban planning to help achieve global development goals. For instance, Lobell et al.&nbsp;(2015) used GEE to create a scalable crop yield (agricultural production) mapper that processed millions of hectares of maize and soy fields. In urban studies, researchers like Ravanelli et al.&nbsp;(2018) have used GEE to monitor surface urban heat islands. By using reducers to analyse twenty years of temperature data, they were able to show a direct link between urban growth and rising heat levels in major cities. These studies show that GEE’s data catalog is a powerful tool for monitoring how earth surface is changing.</p>
+<div style="text-align: center;">
+<p><strong>Image 02: Mapping agricultural production</strong></p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'img/wk6_f2.jpeg'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -271,9 +242,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>“Overview of the study area in the Midwestern United States. State (thick white lines) and county (thin white lines) boundaries are shown for the three states where yield estimates were made: Iowa, Illinois, and Indiana. Black boxes indicate regions for which detailed comparisons with ground-based yield records were made for 2008–2012.” Source: Lobell et al.&nbsp;(2015)</p>
+<p>“Overview of the study area in the Midwestern United States. State (thick white lines) and county (thin white lines) boundaries are shown for the three states where yield estimates were made: Iowa, Illinois, and Indiana. Black boxes indicate regions for which detailed comparisons with ground-based yield records were made for 2008–2012.”</p>
+<p><strong>Source</strong>: Lobell et al.&nbsp;(2015)</p>
+<p><strong>Image 03: Mapping Surface Urban Heat Islands</strong></p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'img/wk6_f3.png'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -282,11 +254,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>“Atlanta MA: LC situation in 1992 (a) and in 2011 (b). In red, the Urbanized class, in light green, the Cultivated class, in dark green, the Forest and Shrubland classes.” Source: Ravanelli et al.&nbsp;(2018)</p>
+<p>“Atlanta MA: LC situation in 1992 (a) and in 2011 (b). In red, the Urbanized class, in light green, the Cultivated class, in dark green, the Forest and Shrubland classes.”</p>
+<p><strong>Source</strong>: Ravanelli et al.&nbsp;(2018)</p>
+</div>
 </section>
 <section id="reflection" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">5.3</span> Reflection</h2>
-<p>Google Earth Engine represents the democratization of big data. Before GEE, only elite scientists with expensive supercomputers could handle large amounts of satellite imagery because of technology challenges, such as managing storage and obscure file formats. This platform handles those issues automatically through its cloud-based infrastructure, allowing anyone with an internet connection to perform complex science. Moreover, the concept of reducers is particularly powerful. It enables users to summarise a 30-year stack of data into a regression slope that shows environmental and/or urban trends, which could be very useful in future works. While there are still some challenges, such as “time-out” errors when a task is too complex, GEE changes the focus from the technical struggle of handling data to the creative process of answering research questions.</p>
+<p>Google Earth Engine represents the democratization of big data. Before GEE, only scientists with expensive computers could handle large amounts of satellite imagery because of technology challenges, such as managing storage and obscure file formats. This platform handles those issues automatically through its cloud-based infrastructure. Moreover, the concept of reducers is particularly powerful. It enables users to summarise a 30 year stack of data into a regression slope that shows environmental and/or urban trends, which could be very useful in future works. While there are still some challenges, such as time-out errors when a task is too complex, GEE changes the focus from the technical struggle of handling data to the creative process of answering research questions. In my future works as architect and urban spatial data analist I might use GEE to track heat islands in cities and/or analyse urban expansion over time, taking advantage of GEE 30 year stack data.</p>
+</section>
+<section id="references" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="references"><span class="header-section-number">5.4</span> References</h2>
+<p><strong>Authorship statement:</strong>I declare that the work in this assessment is my own work and I acknowledge the use of Google NotebookLM (version Standard (free), Google, https://notebooklm.google/) to initial searches, proof reading and grammar correction.</p>
+<p>MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 5 Google Earth Engine I. Available at: https://andrewmaclachlan.github.io/CASA0023/5_GEE_I.html (Accessed: 01 March 2026).</p>
+<p>Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., Moore, R., 2017. Google Earth Engine: Planetary-scale geospatial analysis for everyone. Remote Sensing of Environment, Big Remotely Sensed Data: tools, applications and experiences 202, 18–27.</p>
+<p>Hansen, M.C., Potapov, P.V., Moore, R., Hancher, M., Turubanova, S.A., Tyukavina, A., Thau, D., Stehman, S.V., Goetz, S.J., Loveland, T.R. and Kommareddy, A., 2013. High-resolution global maps of 21st-century forest cover change. science, 342(6160), pp.850-853.</p>
+<p>Lobell, D.B., Thau, D., Seifert, C., Engle, E. and Little, B., 2015. A scalable satellite-based crop yield mapper. Remote Sensing of Environment, 164, pp.324-333.</p>
+<p>Ravanelli, R., Nascetti, A., Cirigliano, R.V., Di Rico, C., Leuzzi, G., Monti, P. and Crespi, M., 2018. Monitoring the impact of land cover change on surface urban heat island through Google Earth Engine: Proposal of a global methodology, first applications and problems. Remote Sensing, 10(9), p.1488.</p>
 
 
 </section>

@@ -8,16 +8,22 @@ We also learned how to prove if a map is actually correct using a "check-list" t
 
 While grouping pixels into objects (OBIA) makes maps look better, it can be a bit subjective because the user has to decide how big or "compact" those shapes should be, resulting in a worse performance when compared to pixel analysis. Moreover, attention should be drawn to the use of Kappa coefficient for checking model accuracy. It used to be a popular method, however it has a confusing interpretation and might give misleading scores. In contrast, the use of tools like the F1 score, is recommended which gives a more balanced and honest look at whether the map is actually correct.
 
-## Application 
+## Application
 
 Regarding the application of these classification methods, a research compared 73 different studies that used OBIA to identify wetlands (Dronova, I., 2015). Moreover, these articles advocate that grouping pixels into shapes helps map complex areas where land and water meet. By treating clusters of pixels as meaningful objects, this approach cleans up the "messy" or "salt-and-pepper" look often found in traditional maps. Instead of relying only on colour, the method uses the size, shape, and the neighbours of these objects to identify structures, such as ponds or marsh patches. This has proven to be a highly effective way to identify specific wetland parts because it works with real-world units rather than just arbitrary grid squares.
 
+::: {style="text-align: center;"}
+**Image 01: Spatial scale of the reviewed papers**
+
 ```{r}
+#| echo: false
+
 knitr::include_graphics('img/wk8_f1.png')
 ```
-“Figure 1. Spatial scale of the reviewed papers: significant positive correlation between log-transformed study area size and spatial resolution (R2 = 0.61, p-value < 0.001).”
+“Figure 1. Spatial scale of the reviewed papers: significant positive correlation between log-transformed study area size and spatial resolution (R2 = 0.61, p-value \< 0.001).”
 
-Source: Dronova, I., 2015. Object-based image analysis in wetland research: A review. Remote Sensing, 7(5), pp.6380-6413.
+**Source**:  Dronova, I., 2015. Object-based image analysis in wetland research: A review. Remote Sensing, 7(5), pp.6380-6413.
+:::
 
 In contrast, a study on Mediterranean wetlands shows the power of sub-pixel analysis by looking inside individual map squares to see their true composition (Reschke, J. and Hüttich, C., 2014). Since these environments are constantly shifting, drying up in the summer or flooding in the winter, simply labelling a square as "water" or "land" is inefficient. Instead, math is used to calculate the exact percentage of water, plants, or soil within every single 30-meter square. This "wetland likeliness" approach provides a much more detailed and continuous picture of how the environment shrinks and grows throughout the seasons.
 
@@ -29,7 +35,9 @@ This week's focus on accuracy and objects would be applicable to my previous wor
 
 ## References
 
-MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 7  Classification II. Available at:https://andrewmaclachlan.github.io/CASA0023/7_classification_II.html (Accessed: 20 March 2026).
+**Authorship statement:**I declare that the work in this assessment is my own work and I acknowledge the use of Google NotebookLM (version Standard (free), Google, https://notebooklm.google/) to initial searches, proof reading and grammar correction.
+
+MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 7 Classification II. Available at:https://andrewmaclachlan.github.io/CASA0023/7_classification_II.html (Accessed: 20 March 2026).
 
 Dronova, I., 2015. Object-based image analysis in wetland research: A review. Remote Sensing, 7(5), pp.6380-6413.
 

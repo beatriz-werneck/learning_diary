@@ -60,6 +60,8 @@ In this week,I learned that pre-processing and applied corrections might be requ
 
 ## References
 
+**Authorship statement:**I declare that the work in this assessment is my own work and I acknowledge the use of Google NotebookLM (version Standard (free), Google, https://notebooklm.google/) to initial searches, proof reading and grammar correction.
+
 1- MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 3 Corrections. Available at: https://andrewmaclachlan.github.io/CASA0023/3_corrections.html (Accessed: 31 January 2026).
 
 2- Shimada, M., 2010. Ortho-rectification and slope correction of SAR data using DEM and its accuracy evaluation. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 3(4), pp.657-671.

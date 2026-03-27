@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -253,9 +218,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="application" class="level2" data-number="8.2">
 <h2 data-number="8.2" class="anchored" data-anchor-id="application"><span class="header-section-number">8.2</span> Application</h2>
 <p>A interesting application of SAR was presented in a study developed in Maceió, Brazil. Furthermore, researchers used SAR time-series data to identify where the ground had been slowly sinking for over ten years (Vassileva et al., 2021). By analysing data from 2004 to 2020, they found that areas near salt mines had dropped by as much as 200 cm, causing buildings to crack and forcing the people who lived their to move. This study proves that SAR can detect significant small movements that eventually lead to major urban issues.</p>
-<p>Image 01: Maceió’s spatio-temporal evolution of subsidence</p>
+<div style="text-align: center;">
+<p><strong>Image 01: Maceió’s spatio-temporal evolution of subsidence</strong></p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'img/wk9_f1.webp'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -264,12 +229,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>“InSAR time series results. (a–c) Cumulative vertical subsidence maps obtained by projecting the LOS component into vertical only and combining in time and space all available displacement datasets. Red, green, and black points show the locations of the time series plotted in Fig.&nbsp;6 respectively point 1 (in the main subsiding area), point 2 (in the minor subsiding area) and point 3 (in hypothetically stable area). White-lines show profile 1 and 2 plotted in (d) where the blue line refers to the period 07.2004–01.2011, green for 07.2004–03.2015, and red for 07.2004–11.2020. Ascending and descending displacements have been combined for the periods where both geometries were available to retrieve (e–i) vertical and (l–p) horizontal average displacement velocities. The horizontal negative values refer to westward motion. Background Google Earth CNES/Airbusimagery. The figures (except d) were plotted in QGIS (v. 3.16, https://www.qgis.org/en/site/).”</p>
-<p>Source: Vassileva, M., Al-Halbouni, D., Motagh, M., Walter, T.R., Dahm, T. and Wetzel, H.U. (2021) ‘A decade-long silent ground subsidence hazard culminating in a metropolitan disaster in Maceió, Brazil’, Scientific Reports, 11(1), 7704.</p>
+<p>“InSAR time series results. (a–c) Cumulative vertical subsidence maps obtained by projecting the LOS component into vertical only and combining in time and space all available displacement datasets. Red, green, and black points show the locations of the time series plotted in Fig.6 respectively point 1 (in the main subsiding area), point 2 (in the minor subsiding area) and point 3 (in hypothetically stable area). White-lines show profile 1 and 2 plotted in (d) where the blue line refers to the period 07.2004–01.2011, green for 07.2004–03.2015, and red for 07.2004–11.2020. Ascending and descending displacements have been combined for the periods where both geometries were available to retrieve (e–i) vertical and (l–p) horizontal average displacement velocities. The horizontal negative values refer to westward motion. Background Google Earth CNES/Airbusimagery. The figures (except d) were plotted in QGIS (v. 3.16, https://www.qgis.org/en/site/).”</p>
+<p><strong>Source</strong>: Vassileva, M., Al-Halbouni, D., Motagh, M., Walter, T.R., Dahm, T. and Wetzel, H.U. (2021) ‘A decade-long silent ground subsidence hazard culminating in a metropolitan disaster in Maceió, Brazil’, Scientific Reports, 11(1), 7704.</p>
+</div>
 <p>Another study in the Distrito Federal, Brazil, used SAR for Land Use and Land Cover (LULC) mapping (Barbosa et al., 2021). In order to do that, they mixed radar intensity with “interferometric coherence” (a measure of how similar the wave phases stay over time). Moreover, the researchers were able to accurately distinguish between types of vegetation and urban buildings. And, as a consequence, they could monitor urban sprawl in tropical regions where heavy rain and clouds often block traditional optical satellites.</p>
-<p>Image 02: Flowchart of LULC map consolidation</p>
+<div style="text-align: center;">
+<p><strong>Image 02: Flowchart of LULC map consolidation</strong></p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'img/wk9_f2.png'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -278,7 +244,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>Source: Barbosa, F.L.R., Guimarães, R.F., Carvalho Junior, O.A. and Gomes, R.A.T. (2021) ‘Land Use/Land Cover (LULC) classification based on SAR/Sentinel 1 image in Distrito Federal, Brazil’, Sociedade &amp; Natureza, 33, e55954.</p>
+<p><strong>Source</strong>: Barbosa, F.L.R., Guimarães, R.F., Carvalho Junior, O.A. and Gomes, R.A.T. (2021) ‘Land Use/Land Cover (LULC) classification based on SAR/Sentinel 1 image in Distrito Federal, Brazil’, Sociedade &amp; Natureza, 33, e55954.</p>
+</div>
 <p>Comparing these two examples it is possible to notice the flexibility of SAR, and how it can be applied in different contexts. While the Maceió study uses radar phase shifts to catch geological sinking over time (Vassileva et al., 2021), the Distrito Federal research uses SAR to tell the difference between city growth and nature (Barbosa et al., 2021). Both demonstrate that SAR is a good tool for long-term monitoring in Brazil’s humid climate, where being able to “see” through clouds is essential for city planning. However, SAR also leads to some challenges. The Maceió study explains that these satellites only measure movement along a specific “Line-of-Sight,” which requires complex math to figure out how much the ground is actually sinking vertically (Vassileva et al., 2021). Similarly, the Distrito Federal study points out that SAR images have a grainy “speckle effect” that can be mistaken for real changes on the ground, as well as “geometric distortions” like layover, where tall buildings appear to lean over other features (Barbosa et al., 2021). Moreover, there is also the problem of “spectral confusion,” where different things like flat roads and calm water reflect the signal the same way, making them hard to distinguish (Barbosa et al., 2021).</p>
 </section>
 <section id="reflection" class="level2" data-number="8.3">
@@ -287,6 +254,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="references" class="level2" data-number="8.4">
 <h2 data-number="8.4" class="anchored" data-anchor-id="references"><span class="header-section-number">8.4</span> References</h2>
+<p><strong>Authorship statement:</strong>I declare that the work in this assessment is my own work and I acknowledge the use of Google NotebookLM (version Standard (free), Google, https://notebooklm.google/) to initial searches, proof reading and grammar correction.</p>
 <p>MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 9: Synthetic Aperture Radar (SAR) data’. Available at:https://andrewmaclachlan.github.io/CASA0023/9_SAR.html (Accessed: 22 March 2026).</p>
 <p>Ballinger, O. Remote Sensing for OSINT: ‘Blast Damage Assessment’. Case Study 10. Available: https://bellingcat.github.io/RS4OSINT/C3_Blast.html (Accessed: 22 March 2026).</p>
 <p>Vassileva, M., Al-Halbouni, D., Motagh, M., Walter, T.R., Dahm, T. and Wetzel, H.U. (2021) ‘A decade-long silent ground subsidence hazard culminating in a metropolitan disaster in Maceió, Brazil’, Scientific Reports, 11(1), 7704.</p>

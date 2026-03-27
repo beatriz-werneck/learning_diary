@@ -41,6 +41,8 @@ Secretaria Municipal de Política Urbana da Prefeitura de Belo Horizonte (2020).
 
 Copernicus Data Space Ecosystem. Sentinel-2. Available at: https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2 (Accessed: 22 February 2026).
 
+MacLachlan, A. CASA0023 Remotely Sensing Cities and Environments: 5 Google Earth Engine I. Available at: https://andrewmaclachlan.github.io/CASA0023/5_GEE_I.html (Accessed: 01 March 2026).
+
 Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., Moore, R., 2017. Google Earth Engine: Planetary-scale geospatial analysis for everyone. Remote Sensing of Environment, Big Remotely Sensed Data: tools, applications and experiences 202, 18–27.
 
 Hansen, M.C., Potapov, P.V., Moore, R., Hancher, M., Turubanova, S.A., Tyukavina, A., Thau, D., Stehman, S.V., Goetz, S.J., Loveland, T.R. and Kommareddy, A., 2013. High-resolution global maps of 21st-century forest cover change. science, 342(6160), pp.850-853.
